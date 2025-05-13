@@ -3,9 +3,10 @@
   "context": {
     "width": 800,
     "height": 400,
+    "github_weeks": 20,
     "github_theme": {
-      "horizontal_padding": 22,
-      "vertical_padding": 100,
+      "horizontal_padding": 26,
+      "vertical_padding": 45,
       "background_color": "#000",
       "font_color": "#fff",
       "day_border_color": "#555",

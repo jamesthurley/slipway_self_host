@@ -1,0 +1,24 @@
+{
+  "log_level": "debug",
+  "registry_urls": [
+    "file:./components/{publisher}.{name}.{version}.tar"
+  ],
+  "timezone": "Europe/London",
+  "rig_permissions": {
+    "givenergy": {
+      "allow": [
+        { "permission": "all" }
+      ]
+    },
+    "github": {
+      "allow": [
+        { "permission": "all" }
+      ]
+    }
+  },
+  "hashed_api_keys": {
+    "key_1": "6e7778cb77e078ca07ee2d140c7a72c9656baac1683ff154706c561f64f47121",
+    "key_2": "5dc11332fa1b1b0a3d1c9acbd433f92f1c1eb9389f0bad0f3ad46480970a5567"
+  },
+  "show_api_keys": "new"
+}

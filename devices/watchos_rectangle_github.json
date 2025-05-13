@@ -1,0 +1,21 @@
+{
+  "playlist": "ios_github",
+  "context": {
+    "width": 800,
+    "height": 400,
+    "github_theme": {
+      "horizontal_padding": 22,
+      "vertical_padding": 100,
+      "background_color": "#000",
+      "font_color": "#fff",
+      "day_border_color": "#555",
+      "day_palette": [
+          "#000",
+          "#666",
+          "#aaa",
+          "#ddd",
+          "#fff"
+      ]
+    }
+  }
+}

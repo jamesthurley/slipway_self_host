@@ -1,0 +1,19 @@
+{
+  "description": "Example rig for rending GivEnergy data with ECharts",
+  "rigging": {
+    "ge": {
+      "component": "jamesthurley.givenergy_cloud.0.6.1",
+      "allow": [
+        { "permission": "http", "prefix":"https://api.givenergy.cloud/" },
+        { "permission": "env", "prefix":"GIVENERGY_" },
+        { "permission": "fonts" },
+        { "permission": "registry_components", "publisher": "slipwayhq" }
+      ],
+      "input": {
+        "width": "$.context.device.width",
+        "height": "$.context.device.height",
+        "theme": "$.context.device.givenergy_theme"
+      }
+    }
+  }
+}  

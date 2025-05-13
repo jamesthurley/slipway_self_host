@@ -1,0 +1,10 @@
+{
+  "schedule": [
+    {
+      "refresh": {
+        "hours": 1
+      },
+      "rig": "givenergy"
+    }
+  ]
+}

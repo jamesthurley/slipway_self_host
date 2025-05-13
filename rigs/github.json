@@ -1,0 +1,20 @@
+{
+  "description": "Example rig for rending GivEnergy data with ECharts",
+  "rigging": {
+    "github": {
+      "component": "jamesthurley.github_commit_graph.1.1.0",
+      "allow": [
+        { "permission": "http", "prefix":"https://api.github.com/" },
+        { "permission": "env", "exact":"GITHUB_TOKEN" },
+        { "permission": "fonts" },
+        { "permission": "registry_components", "publisher": "slipwayhq" }
+      ],
+      "input": {
+        "width": "$.context.device.width",
+        "height": "$.context.device.height",
+        "theme": "$?context.device.github_theme",
+        "username": "jamesthurley"
+      }
+    }
+  }
+}  

@@ -1,0 +1,12 @@
+{
+  "trmnl": {
+    "hashed_id": "f3f45b06f75ca2d0faed8b28b020705abb812cad60aa8095bf83e64eab4c8fdc",
+    "hashed_api_key": "0ddca4c649eb879336ce58d007b38b41709b86c3b9a26d783babaec3a2721431"
+  },
+  "playlist": "trmnl",
+  "context": {
+    "width": 800,
+    "height": 480,
+    "givenergy_theme": "monochrome"
+  }
+}

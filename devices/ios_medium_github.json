@@ -1,0 +1,11 @@
+{
+  "playlist": "ios_github",
+  "context": {
+    "width": 880,
+    "height": 400,
+    "github_theme": {
+      "horizontal_padding": 22,
+      "vertical_padding": 100
+    }
+  }
+}

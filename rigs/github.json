@@ -2,7 +2,7 @@
   "description": "Example rig for rending GivEnergy data with ECharts",
   "rigging": {
     "github": {
-      "component": "jamesthurley.github_commit_graph.1.1.1",
+      "component": "jamesthurley.github_commit_graph.1.2.0",
       "allow": [
         { "permission": "http", "prefix":"https://api.github.com/" },
         { "permission": "env", "exact":"GITHUB_TOKEN" },

@@ -3,9 +3,22 @@
   "context": {
     "width": 880,
     "height": 400,
+    "github_weeks": 26,
     "github_theme": {
       "horizontal_padding": 22,
-      "vertical_padding": 100
+      "vertical_padding": 30,
+      "background_color": "#000",
+      "font_color": "#fff",
+      "day_border_color": "#555",
+      "day_palette": [
+          "#000",
+          "#666",
+          "#aaa",
+          "#ddd",
+          "#fff"
+      ],
+      "count_font_size": 60,
+      "description_font_size": 30
     }
   }
 }

@@ -1,12 +1,23 @@
 {
-  "trmnl": {
-    "hashed_id": "f3f45b06f75ca2d0faed8b28b020705abb812cad60aa8095bf83e64eab4c8fdc",
-    "hashed_api_key": "0ddca4c649eb879336ce58d007b38b41709b86c3b9a26d783babaec3a2721431"
-  },
   "playlist": "trmnl",
   "context": {
-    "width": 800,
-    "height": 480,
-    "givenergy_theme": "monochrome"
-  }
+    "energy_dashboard_theme": {
+      "background_color": "rgb(255, 255, 255)",
+      "battery_color": "rgb(0, 0, 0)",
+      "cash_flow_line_padding": 30,
+      "foreground_color": "rgb(0, 0, 0)",
+      "grid_export_color": "#666",
+      "grid_import_color": "#111",
+      "header_background_color": "#000",
+      "header_foreground_color": "rgb(255, 255, 255)",
+      "power_used_color": "rgb(255, 255, 255)",
+      "solar_color": "#666",
+      "tariff_bar_high_color": "#111",
+      "tariff_bar_low_color": "#666"
+    },
+    "givenergy_theme": "monochrome",
+    "height": 800,
+    "width": 480
+  },
+  "rotate": 90
 }

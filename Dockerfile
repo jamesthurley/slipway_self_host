@@ -8,6 +8,15 @@ COPY ./rigs ./rigs
 COPY ./components ./components
 COPY ./fonts ./fonts
 
+# Configure the timezone in the image.
+RUN set -eux; \
+    zone="$(jq -r '.timezone' slipway_serve.json)"; \
+    # sanity-check it exists in tzdata
+    [ -f "/usr/share/zoneinfo/$zone" ]; \
+    ln -snf "/usr/share/zoneinfo/$zone" /etc/localtime; \
+    echo "$zone" > /etc/timezone; \
+    apt-get purge -y --auto-remove jq && rm -rf /var/lib/apt/lists/*
+
 RUN slipway serve . aot-compile
 
 CMD ["slipway", "serve", ".", "--aot"]

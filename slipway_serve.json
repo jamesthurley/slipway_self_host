@@ -7,18 +7,55 @@
   "rig_permissions": {
     "givenergy": {
       "allow": [
-        { "permission": "all" }
-      ]
+        {
+          "permission": "all"
+        }
+      ],
+      "deny": []
+    },
+    "energy_dashboard": {
+      "allow": [
+        {
+          "permission": "all"
+        }
+      ],
+      "deny": []
+    },
+    "watchos_rectangle_energy_dashboard": {
+      "allow": [
+        {
+          "permission": "all"
+        }
+      ],
+      "deny": []
     },
     "github": {
       "allow": [
-        { "permission": "all" }
-      ]
+        {
+          "permission": "all"
+        }
+      ],
+      "deny": []
     }
   },
-  "hashed_api_keys": {
-    "key_1": "6e7778cb77e078ca07ee2d140c7a72c9656baac1683ff154706c561f64f47121",
-    "key_2": "5dc11332fa1b1b0a3d1c9acbd433f92f1c1eb9389f0bad0f3ad46480970a5567"
-  },
-  "show_api_keys": "new"
+  "api_keys": [
+    {
+      "hashed_key": "6e7778cb77e078ca07ee2d140c7a72c9656baac1683ff154706c561f64f47121",
+      "description": "Key 1"
+    },
+    {
+      "hashed_key": "5dc11332fa1b1b0a3d1c9acbd433f92f1c1eb9389f0bad0f3ad46480970a5567",
+      "description": "Key 2"
+    },
+    {
+      "hashed_key": "0ddca4c649eb879336ce58d007b38b41709b86c3b9a26d783babaec3a2721431",
+      "device": "trmnl_001"
+    },
+    {
+      "hashed_key": "d8b13f3bd9046193fcdbece376cbef8b8cd032df42967f992f9a969b2b8a20e9",
+      "device": "trmnl_001",
+      "description": "For TRMNL Redirect Plugin"
+    }
+  ],
+  "show_api_keys": "always"
 }

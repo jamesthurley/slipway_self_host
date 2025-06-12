@@ -1,2 +1,2 @@
-op inject -i slipway.env | fly secrets import
+op inject -i op.env | fly secrets import
 fly secrets deploy

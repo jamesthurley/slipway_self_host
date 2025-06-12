@@ -18,7 +18,7 @@ My current [Slipway](https://slipway.co/) server configuration.
 
 First start a terminal or code instance with environment variables injected, for example:
 ```
-op run --env-file slipway.env -- code .
+op run --env-file op.env -- code .
 ```
 
 Then run:

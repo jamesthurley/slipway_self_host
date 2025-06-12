@@ -8,13 +8,13 @@
       "refresh": {
         "hours": 3
       },
-      "rig": "givenergy"
+      "rig": "energy_dashboard"
     },
     {
       "refresh": {
         "cron": "0 * * * *"
       },
-      "rig": "givenergy"
+      "rig": "energy_dashboard"
     }
   ]
 }

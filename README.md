@@ -1,8 +1,10 @@
 My current [Slipway](https://slipway.co/) server configuration.
 
+This repository using the 1Password CLI (`op`) to manage environment variables.
+
 # Usage
 
-## Deploy secrets to Fly.io (requires 1Password CLI)
+## Deploy secrets to Fly.io
 
 ```
 ./deploy-secrets.sh
@@ -16,7 +18,12 @@ My current [Slipway](https://slipway.co/) server configuration.
 
 ## Run locally
 
-First start a terminal or code instance with environment variables injected, for example:
+You can inject the environment variables and run locally by running:
+```
+op run --env-file op.env -- slipway serve .
+```
+
+Alternative first start a terminal or VSCode instance with environment variables injected, for example:
 ```
 op run --env-file op.env -- code .
 ```
@@ -28,12 +35,10 @@ slipway serve .
 
 ## Run locally in a container
 
-Build the container:
+Run the following script:
 ```
-./build.sh
+./build-and-run-locally.sh
 ```
 
-Inject environment variables and run docker:
-```
-op run --env-file rig.env -- docker run -p 8080:8080 -e GIVENERGY_API_TOKEN -e GIVENERGY_INVERTER_ID -e GITHUB_TOKEN slipway_self_host:latest
-```
+This script takes care of building the Docker image and running it locally
+using the 1Password CLI, passing through the relevant environment variables to the container.
